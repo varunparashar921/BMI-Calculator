@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bwq="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/wholeMenu"
+    >
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/choiceSystemMenu">
+        <item
+            android:id="@+id/metricSystemItemInMenu"
+            android:onClick="onGroupItemClick"
+            android:checked="true"
+            android:title="@string/metricChoiceInMenu"
+            />
+        <item
+            android:id="@+id/imperialSystemItemInMenu"
+            android:onClick="onGroupItemClick"
+            android:title="@string/imperialChoiceInMenu"/>
+    </group>
+
+    <item
+        android:id="@+id/menu_item_save"
+        android:title="@string/save_message"
+        android:enabled="false"
+        android:onClick="onOptionsItemSelected" />
+
+    <item
+        android:id="@+id/menu_item_share"
+        android:showAsAction="ifRoom"
+        android:title="@string/share_message"
+        android:actionProviderClass=
+            "android.widget.ShareActionProvider"
+        bwq:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        android:enabled="false"/>
+
+    <item
+        android:id="@+id/menu_item_author"
+        android:title="@string/about_author_menu_message"
+        android:onClick="onOptionsItemSelected" />
+</menu>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">BMI</string>
+    <string name="kg"><i> kg</i></string>
+    <string name="m"><i> m</i></string>
+    <string name="in"><i> in</i></string>
+    <string name="lb"><i> lb</i></string>
+    <string name="bmi">BMI:</string>
+    <string name="ok">OK</string>
+    <string name="alert">Alert</string>
+    <string name="button_text_count_message">Count</string>
+    <string name="give_your_mass">Give your mass:</string>
+    <string name="give_your_height">Give your height:</string>
+    <string name="input_mass_toast">Please input your mass.</string>
+    <string name="input_height_toast">Please input your height.</string>
+    <string name="input_mass_and_height_toast">Please input your mass and height.</string>
+    <string name="invalid_mass_and_height">Invalid mass and height.</string>
+    <string name="invalid_mass">Invalid mass.</string>
+    <string name="invalid_height">Invalid height.</string>
+    <string name="metricChoiceInMenu">Metric System (kg, m)</string>
+    <string name="imperialChoiceInMenu">Imperial System (lb, in)</string>
+    <string name="critical_underweight_message">OMG! I\'m so skinny that I have to go to the hospital!</string>
+    <string name="underweight_message">Can someone give me some food? I\'m hungry :(</string>
+    <string name="normal_weight_message">Feeling nice, fit and healthy!</string>
+    <string name="overweight_message">Well... I can\'t say I don\'t like donuts! But for sure gym is not place for me :/</string>
+    <string name="critical_overweight_message">If there could be the most tragic catastrophy in the world\'s history - for me it would be McDonald\'s closing all of their restaurants :(</string>
+    <string name="app_info_message">Counted via BMI Calculator app from Szymon Marcinkiewicz.</string>
+    <string name="my_bmi_is_equal_to_message">My BMI is equal to</string>
+    <string name="share_bmi_with_your_friends_message">Share BMI with your friends now!</string>
+    <string name="about_author_message">About author</string>
+    <string name="about_author_title">Something about me:</string>
+    <string name="about_author_description">My name is Szymon Marcinkiewicz. I\'m II year student of Computer Science at Wrocław University of Science and Technology.\n\n
+        I fell in love with programming when I came to University. Developing had immediately became my best hobby I have ever had.
+        Spending days and nights on computer I\'ve learned many thing from different fields of programming. My <i>main</i> language is Java, but I have learned many other programming languages:\n
+        \t - Python \n
+        \t - C++ \n
+        \t - Scala \n
+        \t - OCaml \n
+        \t - Assembly \n
+        \t - And some other! \n\n
+
+        You can see my other projects (including this app too!) over here:
+    </string>
+    <string name="my_website_string">github.com/pitagoras3</string>
+    <string name="share_message">Share</string>
+    <string name="save_message">Save</string>
+    <string name="about_author_menu_message">About author</string>
+</resources>
